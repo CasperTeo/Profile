@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
 * Start Bootstrap - Resume v6.0.2 (https://startbootstrap.com/theme/resume)
 * Copyright 2013-2020 Start Bootstrap
@@ -10097,6 +10097,12 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+}
+
+section.resume-section .resume-section-content a{
+  target:new front;
+  font-style:italic;
+  font-weight:bold;
 }
 
 @media (min-width: 768px) {
